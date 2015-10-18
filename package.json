@@ -1,7 +1,7 @@
 {
   "name": "@cli/handler",
   "version": "0.3.0",
-  "description": "handler",
+  "description": "Execute functions within the context in a cli.js app",
   "main": "index.js",
   "scripts": {
     "test": "node ./test.js | tap-spec"
