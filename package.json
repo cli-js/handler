@@ -4,7 +4,7 @@
   "description": "handler",
   "main": "index.js",
   "scripts": {
-    "test": "echo '1'"
+    "test": "node ./test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
   "homepage": "https://github.com/cli-js/handler#readme",
   "dependencies": {
     "as-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.0",
+    "tessed": "^2.2.0"
   }
 }
