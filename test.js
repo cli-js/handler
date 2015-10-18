@@ -1,5 +1,5 @@
 var namespace = require('tessed').namespace
-var handler = require('./')
+var handler = require('./index')
 
 var test = namespace('handler')
 
